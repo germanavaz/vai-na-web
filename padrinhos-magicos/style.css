@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 24vh;
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+header div button {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+header div .firstButton {
+  width: 309px;
+  height: 62px;
+  background-color: #DF0712;
+  border: none;
+}
+header div .secondButton {
+  width: 158px;
+  height: 62px;
+  background-color: #181818;
+  border: solid 1px white;
+}/*# sourceMappingURL=style.css.map */

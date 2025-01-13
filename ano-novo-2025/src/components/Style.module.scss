@@ -1,0 +1,70 @@
+//--------------header-------------//
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+    height: 14vh;
+
+    nav {
+        width: 30%;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            font-size: 32px;
+        }
+    }
+}
+
+//--------------main-------------//
+
+main {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boasFestas {
+    width: 35%;
+    text-align: end;
+
+    h3 {
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+
+.poema {
+    font-size: 20px;
+    line-height: 30.54px;
+}
+
+//--------------footer-------------//
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    height: 10vh;
+    padding: 0 30px 0 0;
+
+    img {
+        width: 4vw;
+        border-radius: 50%;
+
+        &:hover {
+            box-shadow: #8dabff 0px 54px 55px, #8dabff 0px -12px 30px, #8dabff 0px 4px 6px, #8dabff 0px 12px 13px, #8dabff 0px -3px 5px;
+            color: #00229c;
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+}

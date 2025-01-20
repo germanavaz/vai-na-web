@@ -1,0 +1,15 @@
+article {
+    width: 20vw;
+    height: 55vh;
+    border: solid 2px;
+}
+
+img {
+    width: 20vw;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

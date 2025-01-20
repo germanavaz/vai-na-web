@@ -33,8 +33,8 @@ export default function App() {
     <h1>Airbnb Vai na Web</h1>
 
     <section>
-      {cadastro.map((index) => (
-        <article>
+      {cadastro.map((index, id) => (
+        <article key={id}>
           <img src={index.img} alt="" />
           <h2>{index.titulo}</h2>
           <p>{index.data}</p>

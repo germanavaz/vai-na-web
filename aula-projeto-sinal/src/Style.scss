@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url('https://media1.tenor.com/m/PNCmUATE4ScAAAAd/seattle-skyline.gif');
+    background-size: cover;
+    height: 100vh;
+}
+
+.sinal {
+    width: 100px;
+    height: 250px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+}
+
+.luz {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+.botoes button {
+    margin: 10px;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-self: center;
+}
+
+
+
+.vermelho-btn {
+    background-color: red;
+}
+
+.amarelo-btn {
+    background-color: yellow;
+}
+
+.verde-btn {
+    background-color: green;
+}

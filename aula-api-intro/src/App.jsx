@@ -10,7 +10,7 @@ export default function App() {
   const pegarDados = async () => {
 
     const dados = await axios.get('https://api.sampleapis.com/rickandmorty/characters')
-    setDesenho(dados.data[2])
+    setDesenho(dados.data[0])
   }
 
   useEffect(()=>{
@@ -23,6 +23,7 @@ export default function App() {
     <h2>Application Programing Interface /  Interface de Programação de Aplicações</h2>
     <article>
       <img src={desenho.image} alt=""/>
+      <h2>{desenho.name}</h2>
     </article>
 
     </>

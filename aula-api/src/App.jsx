@@ -22,7 +22,14 @@ export default function App() {
 
   return(
     <>
-    Boa tarde!!!
+    <section>
+      {produto.map((item) => (
+        <div key={item.id}>
+          <img src={item.image} alt={item.description} />
+          <h2>{item.title}</h2>
+        </div>
+      ))}
+    </section>
     </>
   )
 }

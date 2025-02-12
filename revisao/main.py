@@ -82,3 +82,11 @@ filmes = ['Carros', 'Rei Leão', 'Toy Story', 'Mulan']
 # Loop 'for' iterando sobre uma lista
 for item in filmes:  # Percorre a lista, atribuindo cada elemento à variável 'item'
     print(item)  # Imprime o nome de cada filme
+
+
+# Funções
+def soma(numero1, numero2):
+    print(numero1+numero2)
+
+
+soma(2, 3)

@@ -40,8 +40,8 @@ def doar():
 
     with sqlite3.connect('database.db') as conn:
         conn.execute(f""" INSERT INTO livros (titulo,categoria,autor,imagem_url)
-                     VALUES('{titulo}','{categoria}','{autor}','{imagem_url}')
-                     """)
+                     VALUES(?,?,?,?)
+                     """, (titulo, categoria, autor, imagem_url))
         conn.commit()
 
         return jsonify({"mensagem": "Livro cadastrado com sucesso."}), 201

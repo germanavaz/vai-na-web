@@ -78,7 +78,7 @@ def deletar_livro(livro_id):
     if cursor.rowcount == 0:
         return jsonify({"erro": "Livro não encontrado"}), 400
 
-    return jsonify({"menssagem": "Livro excluído com sucesso"}), 200
+    return jsonify({"mensagem": "Livro excluído com sucesso"}), 200
 
 
 if __name__ == '__main__':
